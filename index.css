@@ -1,0 +1,26 @@
+.a11yHidden, legend{
+  overflow:hidden;
+  position:absolute !important;
+  clip:rect(0, 0, 0, 0);
+  -webkit-clip-path:inset(50%);
+  clip-path:inset(50%);
+  width:1px;
+  height:1px;
+  margin:-1px
+}
+
+/* FOOTER */
+footer{
+  background: #272727;
+  border-top: 1px solid #333;
+}
+footer .inner{
+  padding: 40px 0 60px 0;
+}
+footer .menu{
+  display: flex;
+  justify-content: center;
+}
+footer .menu li{
+  position: relative;
+}
