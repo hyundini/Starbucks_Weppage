@@ -8,7 +8,14 @@
   height:1px;
   margin:-1px
 }
-
+/* MAIN */
+main{
+  background: url(./2022Autumn_main_bg_02.jpeg);
+}
+main .main_coffee{
+  display: flex;
+  flex-direction: row;
+}
 /* FOOTER */
 footer{
   background: #272727;
