@@ -15,7 +15,9 @@ footer{
   border-top: 1px solid #333;
   padding: 130px 30px 130px 70px;
 }
-footer .Footer menu{
+footer .footer_menu{
   display: flex;
-  margin: 130px 30px 130px 70px;
+  flex-direction: row;
+  justify-content: space-evenly;
+  line-height: 1.6;
 }
