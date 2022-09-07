@@ -11,10 +11,87 @@
 /* MAIN */
 main{
   background: url(./2022Autumn_main_bg_02.jpeg);
+  width: 100vw;
+  height: 646px;
+  
 }
-main .main_coffee{
+.main .main_coffee{
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 100%;
+  position: relative;
+}
+.main_coffee .first_item,
+.main_coffee .second_item,
+.main_coffee .third_item,
+.main_coffee .fourth_item,
+.main_coffee .btn_slogan,
+.main_coffee .badge_cont1,
+.main_coffee .badge_cont2{
+  position: absolute;
+}
+.main_coffee .first_item{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  top: 194px;
+  left: 33px;
+  right: 1075px;
+  bottom: 285px;
+}
+.main_coffee .second_item{
+  top: 70px;
+  left: 453px;
+  right: 714px;
+  bottom: 129px;
+}
+.main_coffee .third_item{
+  top: 171px;
+  left: 700px;
+  right: 465px;
+  bottom: 62px;
+}
+.main_coffee .fourth_item{
+  top: 51px;
+  left: 946px;
+  right: 221px;
+  bottom: 160px;
+}
+.main_coffee .btn_slogan{
+  display: block;
+  width: 129px;
+  height: 38px;
+  font-size: 100%;
+  line-height: 34px;
+  color: black;
+  border-radius: 5px;    
+  border: 2px solid #12362c;
+  text-align: center;
+  box-sizing: border-box;
+  top:410px;
+  left: 135px;
+  right: 1177;
+  bottom: 198px;
+  padding-left: 19px;
+  padding-right: 19px;
+}
+.main_coffee .badge_cont1{
+  display: block;
+  color: #666;
+  top: 31px;
+  left: 1268x;
+  right: 29px;
+  bottom: 519px;
+}
+.main_coffee .badge_cont2{
+  display: block;
+  color: #666;
+  top: 127px;
+  left: 1268x;
+  right: 29px;
+  bottom: 423px;
 }
 /* FOOTER */
 footer{
