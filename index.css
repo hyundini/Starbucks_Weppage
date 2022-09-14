@@ -9,6 +9,9 @@
   margin:-1px
 }
 /* MAIN */
+.container{
+
+}
 main{
   background: url(./2022Autumn_main_bg_02.jpeg);
   width: 100vw;
@@ -84,6 +87,7 @@ main{
   left: 1268x;
   right: 29px;
   bottom: 519px;
+  position: fixed;
 }
 .main_coffee .badge_cont2{
   display: block;
@@ -92,6 +96,7 @@ main{
   left: 1268x;
   right: 29px;
   bottom: 423px;
+  position: fixed;
 }
 /* FOOTER */
 footer{
