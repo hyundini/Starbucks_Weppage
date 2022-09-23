@@ -8,76 +8,42 @@
   height:1px;
   margin:-1px
 }
-.page_inner{
+
+.page_inner {
   margin: 0 auto;
   width: 100vw;
   max-width: 1100px;
+  background-color: blue;
 }
-
 /* HEADER */
-.header{
-  position: fixed;
-  background: #f6f5ef;
+
+.header {
   width: 100%;
-  z-index: 9999;
-  box-sizing: border-box;
+  background-color: #f6f5ef;
 }
 .header .page_inner {
-  height: 120px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  
 }
 
-
-.nav_wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  height: 100%;
+.member_nav {
+  background-color: pink;
+  opacity: .8;
 }
-
-.member_nav ul{
-  display: flex;
+.main_nav {
+  background-color: yellow;
+  opacity: .5;
+}
+.nav_list{
+  display:flex;
   flex-direction: row;
-  justify-content: flex-end;
-  gap: 15px;
-  margin-right: 20px
 }
-.main_nav_list {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-.main_nav_link {
-  padding: 10px 30px 30px 10px;
-  color: #333333;
-}
-.main_menu_open{
-  width: 100vw;
-  position: absolute;
-  top: 120px;
-  left: 0;
-  background-color: #2c2a29;
-  display: none;
-}
-.sub_nav_link {
+.main_nav_items {
   color: white;
 }
-.sub_nav_list {
-  padding: 50px 0;
-  color: #555;
-}
-
-
-/* hover효과 */
-.main_nav_items:hover .main_menu_open{
-  display: block;
-}
-
 /* MAIN */
+
 main{
   background: url(./2022Autumn_main_bg_02.jpeg);
   width: 100vw;
